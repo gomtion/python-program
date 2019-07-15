@@ -1,5 +1,5 @@
 def get_age():
-   if(age > 30):
+   if(age > 60):
      print("you are old")
    else:
          print("you are young")
