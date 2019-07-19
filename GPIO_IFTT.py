@@ -7,7 +7,7 @@ import requests
 button = Button(2)
 
 def message(r):
-    print(r)
+    print("sending notification")
     r = requests.get("https://maker.ifttt.com/trigger/globalcode/with/key/lYPq_WoPi63iCTm22xsarLBQS8aHR6ietLkJP7u7vNJ")
     print(r)
 
